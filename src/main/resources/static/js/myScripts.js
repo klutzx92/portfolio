@@ -23,3 +23,8 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+document.querySelector('.third-button').addEventListener('click', function () {
+
+document.querySelector('.animated-icon3').classList.toggle('open');
+});
